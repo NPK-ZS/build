@@ -71,6 +71,9 @@
     return var_intent_startup_motion()
     return device_init()
   )
+
+  raw(base.init)
+  raw(super.init)
 )
     
     
